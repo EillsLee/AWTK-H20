@@ -1,0 +1,291 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="源文件">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="头文件">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="资源文件">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="源文件\custom_widgets">
+      <UniqueIdentifier>{829d7770-7aba-4c48-ad41-f1fee5d65e4b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\user">
+      <UniqueIdentifier>{cfd8ef2f-0751-439c-9dd7-792aa36ce45a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\windows">
+      <UniqueIdentifier>{8cdea1a7-f174-4eca-9ef3-d1fecf022e63}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\hardware">
+      <UniqueIdentifier>{b5b94a2d-4a20-4e0a-81e1-61fa0a80b6a8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\custom_widgets\float_label">
+      <UniqueIdentifier>{765d6de1-1ae4-4e49-a9cd-2b70f0b87af6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\custom_widgets\time_label">
+      <UniqueIdentifier>{216e0cc1-d26a-4214-8dff-df62ff66ff58}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\windows\custom_num_kb">
+      <UniqueIdentifier>{288a6ec6-24c4-4eeb-84ab-beca7f8f435a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\windows\home_page">
+      <UniqueIdentifier>{64820ebb-d796-4f4a-bd04-c05d4ba07861}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\function_model">
+      <UniqueIdentifier>{f6918658-4f02-4d35-a767-de850f570b76}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\function_model\view_model_manage">
+      <UniqueIdentifier>{9101904e-42e7-4e70-97c1-f7df7b88d737}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\hardware\modbus_serial_port">
+      <UniqueIdentifier>{3217d021-6f08-47af-aefb-56bef9a2e9c3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\plugins">
+      <UniqueIdentifier>{a0ec8123-6dfc-4d65-9a41-64455189ad4e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\plugins\libmodbus">
+      <UniqueIdentifier>{4c63cd53-13a4-4cc1-970a-4a29db66f114}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\hardware\modbus_data">
+      <UniqueIdentifier>{b519034e-ea1e-41d4-b038-5ecd8cd228f5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\hardware\command_args">
+      <UniqueIdentifier>{e54585ad-60de-4217-a5f1-e6df77987e73}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\windows\alarm_manage">
+      <UniqueIdentifier>{311e0d20-a740-475b-a95c-ee6f461545cb}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\windows\power_down">
+      <UniqueIdentifier>{42411630-d2e3-4443-ba34-5b755b5bcf5a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\windows\wifi_set">
+      <UniqueIdentifier>{e3a365a6-b3df-4331-a5fa-1abdf34aa281}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\hardware\usage_info">
+      <UniqueIdentifier>{7c1770c9-e600-41bf-a5fc-dc6729ac4517}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\windows\password_win">
+      <UniqueIdentifier>{55240266-de28-4184-898d-dce855942cbc}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\windows\maintenance_win">
+      <UniqueIdentifier>{5a0d18f1-b31c-4004-9628-b9cbd0622de6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\function_model\mqtt_app_protocol">
+      <UniqueIdentifier>{4cc97bf0-d482-4bef-af74-6b00e6665e34}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\function_model\cJSON">
+      <UniqueIdentifier>{417df983-9368-4ed6-bdb8-b24b4d4678e1}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\..\..\src\user\app_main.c">
+      <Filter>源文件\user</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\custom_widgets\float_label\float_label.c">
+      <Filter>源文件\custom_widgets\float_label</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\custom_widgets\time_label\time_label.c">
+      <Filter>源文件\custom_widgets\time_label</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\windows\home_page\home_page.c">
+      <Filter>源文件\windows\home_page</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\windows\custom_kb_num\custom_kb_num.c">
+      <Filter>源文件\windows\custom_num_kb</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\windows\custom_kb_num\custom_kb_num_view_model.c">
+      <Filter>源文件\windows\custom_num_kb</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\windows\home_page\home_page_view_model.c">
+      <Filter>源文件\windows\home_page</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\function_model\view_model_manage\view_model_manage.c">
+      <Filter>源文件\function_model\view_model_manage</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\hardware\modbus_serial_port\modbus_serial_port.c">
+      <Filter>源文件\hardware\modbus_serial_port</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\plugins\libmodbus\modbus.c">
+      <Filter>源文件\plugins\libmodbus</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\plugins\libmodbus\modbus-data.c">
+      <Filter>源文件\plugins\libmodbus</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\plugins\libmodbus\modbus-rtu.c">
+      <Filter>源文件\plugins\libmodbus</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\function_model\modbus_data\modbus_data.c">
+      <Filter>源文件\hardware\modbus_data</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\function_model\modbus_data\modbus_data_view_model.c">
+      <Filter>源文件\hardware\modbus_data</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\function_model\command_args\command_args.c">
+      <Filter>源文件\hardware\command_args</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\windows\alarm_manage\alarm_manage.c">
+      <Filter>源文件\windows\alarm_manage</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\windows\alarm_manage\alarm_manage_view_model.c">
+      <Filter>源文件\windows\alarm_manage</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\windows\power_down\power_down.c">
+      <Filter>源文件\windows\power_down</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\windows\power_down\power_down_view_model.c">
+      <Filter>源文件\windows\power_down</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\windows\wifi_set\wifi_item.c">
+      <Filter>源文件\windows\wifi_set</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\windows\wifi_set\wifi_item_view_model.c">
+      <Filter>源文件\windows\wifi_set</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\windows\wifi_set\wifi_set.c">
+      <Filter>源文件\windows\wifi_set</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\windows\wifi_set\wifi_set_view_model.c">
+      <Filter>源文件\windows\wifi_set</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\function_model\usage_info\usage_info.c">
+      <Filter>源文件\hardware\usage_info</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\function_model\usage_info\usage_info_view_model.c">
+      <Filter>源文件\hardware\usage_info</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\windows\password_win\password_win.c">
+      <Filter>源文件\windows\password_win</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\windows\password_win\password_win_view_model.c">
+      <Filter>源文件\windows\password_win</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\windows\maintenance_win\maintenance_win.c">
+      <Filter>源文件\windows\maintenance_win</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\windows\maintenance_win\maintenance_win_view_model.c">
+      <Filter>源文件\windows\maintenance_win</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\function_model\mqtt_app_protocol\mqtt_app_protocol.c">
+      <Filter>源文件\function_model\mqtt_app_protocol</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\function_model\mqtt_app_protocol\mqtt_app_protocol_view_model.c">
+      <Filter>源文件\function_model\mqtt_app_protocol</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\function_model\cJSON\cJSON.c">
+      <Filter>源文件\function_model\cJSON</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\..\..\src\user\app_main.h">
+      <Filter>源文件\user</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\custom_widgets\float_label\float_label.h">
+      <Filter>源文件\custom_widgets\float_label</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\custom_widgets\time_label\time_label.h">
+      <Filter>源文件\custom_widgets\time_label</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\windows\home_page\home_page.h">
+      <Filter>源文件\windows\home_page</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\windows\custom_kb_num\custom_kb_num.h">
+      <Filter>源文件\windows\custom_num_kb</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\windows\custom_kb_num\custom_kb_num_view_model.h">
+      <Filter>源文件\windows\custom_num_kb</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\windows\home_page\home_page_view_model.h">
+      <Filter>源文件\windows\home_page</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\function_model\view_model_manage\view_model_manage.h">
+      <Filter>源文件\function_model\view_model_manage</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\hardware\modbus_serial_port\modbus_serial_port.h">
+      <Filter>源文件\hardware\modbus_serial_port</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\plugins\libmodbus\config.h">
+      <Filter>源文件\plugins\libmodbus</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\plugins\libmodbus\modbus.h">
+      <Filter>源文件\plugins\libmodbus</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\plugins\libmodbus\modbus-private.h">
+      <Filter>源文件\plugins\libmodbus</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\plugins\libmodbus\modbus-rtu.h">
+      <Filter>源文件\plugins\libmodbus</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\plugins\libmodbus\modbus-rtu-private.h">
+      <Filter>源文件\plugins\libmodbus</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\plugins\libmodbus\modbus-version.h">
+      <Filter>源文件\plugins\libmodbus</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\function_model\modbus_data\modbus_data.h">
+      <Filter>源文件\hardware\modbus_data</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\function_model\modbus_data\modbus_data_view_model.h">
+      <Filter>源文件\hardware\modbus_data</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\function_model\command_args\command_args.h">
+      <Filter>源文件\hardware\command_args</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\windows\alarm_manage\alarm_manage.h">
+      <Filter>源文件\windows\alarm_manage</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\windows\alarm_manage\alarm_manage_view_model.h">
+      <Filter>源文件\windows\alarm_manage</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\windows\power_down\power_down.h">
+      <Filter>源文件\windows\power_down</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\windows\power_down\power_down_view_model.h">
+      <Filter>源文件\windows\power_down</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\windows\wifi_set\wifi_item.h">
+      <Filter>源文件\windows\wifi_set</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\windows\wifi_set\wifi_item_view_model.h">
+      <Filter>源文件\windows\wifi_set</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\windows\wifi_set\wifi_set.h">
+      <Filter>源文件\windows\wifi_set</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\windows\wifi_set\wifi_set_view_model.h">
+      <Filter>源文件\windows\wifi_set</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\function_model\usage_info\usage_info.h">
+      <Filter>源文件\hardware\usage_info</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\function_model\usage_info\usage_info_view_model.h">
+      <Filter>源文件\hardware\usage_info</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\windows\password_win\password_win.h">
+      <Filter>源文件\windows\password_win</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\windows\password_win\password_win_view_model.h">
+      <Filter>源文件\windows\password_win</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\windows\maintenance_win\maintenance_win.h">
+      <Filter>源文件\windows\maintenance_win</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\windows\maintenance_win\maintenance_win_view_model.h">
+      <Filter>源文件\windows\maintenance_win</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\function_model\mqtt_app_protocol\mqtt_app_protocol.h">
+      <Filter>源文件\function_model\mqtt_app_protocol</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\function_model\mqtt_app_protocol\mqtt_app_protocol_view_model.h">
+      <Filter>源文件\function_model\mqtt_app_protocol</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\function_model\cJSON\cJSON.h">
+      <Filter>源文件\function_model\cJSON</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>

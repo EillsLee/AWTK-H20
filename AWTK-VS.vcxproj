@@ -1,0 +1,207 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Debug|x64">
+      <Configuration>Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|x64">
+      <Configuration>Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <VCProjectVersion>15.0</VCProjectVersion>
+    <ProjectGuid>{92DAC4B7-09BB-4DE2-AD1D-6820DDAD33B0}</ProjectGuid>
+    <RootNamespace>SNC1</RootNamespace>
+    <WindowsTargetPlatformVersion>10.0</WindowsTargetPlatformVersion>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v142</PlatformToolset>
+    <CharacterSet>MultiByte</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v142</PlatformToolset>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>MultiByte</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v142</PlatformToolset>
+    <CharacterSet>MultiByte</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v142</PlatformToolset>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>MultiByte</CharacterSet>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="Shared">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <LibraryPath>$(LibraryPath)</LibraryPath>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>Disabled</Optimization>
+      <SDLCheck>true</SDLCheck>
+      <ConformanceMode>true</ConformanceMode>
+    </ClCompile>
+    <Link>
+      <SubSystem>Console</SubSystem>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>Disabled</Optimization>
+      <SDLCheck>true</SDLCheck>
+      <ConformanceMode>true</ConformanceMode>
+      <AdditionalIncludeDirectories>D:\AWTKLocalLib\ZLGopen_new\awtk\lib;D:\AWTKLocalLib\ZLGopen_new\awtk-widget-qr\src;D:\AWTKLocalLib\ZLGopen_new\awtk\src;D:\AWTKLocalLib\ZLGopen_new\awtk\src\ext_widgets;D:\AWTKLocalLib\ZLGopen_new\awtk-mvvm\src;D:\AWTKLocalLib\ZLGopen_new\3rd\mqtt\include;..\..\..\lib;..\..\..\res;..\..\..\src;..\..\..\src\common;..\..\..\src\custom_widgets;..\..\..\src\device_driver;..\..\..\src\middlewares;..\..\..\src\user;..\..\..\src\windows;..\..\..\src\function_model;..\..\..\src\plugins;..\..\..\src\hardware;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <PreprocessorDefinitions>WITH_FS_RES;WIN32;_MBCS;_CRT_SECURE_NO_WARNINGS;_CRT_NONSTDC_NO_DEPRECATE;DEBUG_PRINTF;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+    </ClCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+      <AdditionalLibraryDirectories>D:\AWTKLocalLib\ZLGopen_new\3rd\mqtt\lib;D:\AWTKLocalLib\ZLGopen_new\awtk\lib;D:\AWTKLocalLib\ZLGopen_new\awtk-mvvm\lib;D:\AWTKLocalLib\ZLGopen_new\awtk-widget-qr\lib;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalDependencies>paho-mqtt3c.lib;paho-mqtt3a.lib;awtk_global.lib;base.lib;cjson.lib;common.lib;compressors.lib;conf_io.lib;extwidgets.lib;font_gen.lib;fribidi.lib;glad.lib;gpinyin.lib;image_gen.lib;linebreak.lib;lz4.lib;miniz.lib;nanovg.lib;SDL2.lib;str_gen.lib;streams.lib;theme_gen.lib;tkc_static.lib;ubjson.lib;widgets.lib;winmm.lib;imm32.lib;version.lib;kernel32.lib;user32.lib;gdi32.lib;winspool.lib;comdlg32.lib;advapi32.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;odbc32.lib;odbccp32.lib;mvvm.lib;qr.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <PreventDllBinding>
+      </PreventDllBinding>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>MaxSpeed</Optimization>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <SDLCheck>true</SDLCheck>
+      <ConformanceMode>true</ConformanceMode>
+    </ClCompile>
+    <Link>
+      <SubSystem>Console</SubSystem>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>MaxSpeed</Optimization>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <SDLCheck>true</SDLCheck>
+      <ConformanceMode>true</ConformanceMode>
+    </ClCompile>
+    <Link>
+      <SubSystem>Console</SubSystem>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <ClCompile Include="..\..\..\src\custom_widgets\float_label\float_label.c" />
+    <ClCompile Include="..\..\..\src\custom_widgets\time_label\time_label.c" />
+    <ClCompile Include="..\..\..\src\function_model\cJSON\cJSON.c" />
+    <ClCompile Include="..\..\..\src\function_model\command_args\command_args.c" />
+    <ClCompile Include="..\..\..\src\function_model\modbus_data\modbus_data.c" />
+    <ClCompile Include="..\..\..\src\function_model\modbus_data\modbus_data_view_model.c" />
+    <ClCompile Include="..\..\..\src\function_model\mqtt_app_protocol\mqtt_app_protocol.c" />
+    <ClCompile Include="..\..\..\src\function_model\mqtt_app_protocol\mqtt_app_protocol_view_model.c" />
+    <ClCompile Include="..\..\..\src\function_model\usage_info\usage_info.c" />
+    <ClCompile Include="..\..\..\src\function_model\usage_info\usage_info_view_model.c" />
+    <ClCompile Include="..\..\..\src\function_model\view_model_manage\view_model_manage.c" />
+    <ClCompile Include="..\..\..\src\hardware\modbus_serial_port\modbus_serial_port.c" />
+    <ClCompile Include="..\..\..\src\plugins\libmodbus\modbus-data.c" />
+    <ClCompile Include="..\..\..\src\plugins\libmodbus\modbus-rtu.c" />
+    <ClCompile Include="..\..\..\src\plugins\libmodbus\modbus.c" />
+    <ClCompile Include="..\..\..\src\user\app_main.c" />
+    <ClCompile Include="..\..\..\src\windows\alarm_manage\alarm_manage.c" />
+    <ClCompile Include="..\..\..\src\windows\alarm_manage\alarm_manage_view_model.c" />
+    <ClCompile Include="..\..\..\src\windows\custom_kb_num\custom_kb_num.c" />
+    <ClCompile Include="..\..\..\src\windows\custom_kb_num\custom_kb_num_view_model.c" />
+    <ClCompile Include="..\..\..\src\windows\home_page\home_page.c" />
+    <ClCompile Include="..\..\..\src\windows\home_page\home_page_view_model.c" />
+    <ClCompile Include="..\..\..\src\windows\maintenance_win\maintenance_win.c" />
+    <ClCompile Include="..\..\..\src\windows\maintenance_win\maintenance_win_view_model.c" />
+    <ClCompile Include="..\..\..\src\windows\password_win\password_win.c" />
+    <ClCompile Include="..\..\..\src\windows\password_win\password_win_view_model.c" />
+    <ClCompile Include="..\..\..\src\windows\power_down\power_down.c" />
+    <ClCompile Include="..\..\..\src\windows\power_down\power_down_view_model.c" />
+    <ClCompile Include="..\..\..\src\windows\wifi_set\wifi_item.c" />
+    <ClCompile Include="..\..\..\src\windows\wifi_set\wifi_item_view_model.c" />
+    <ClCompile Include="..\..\..\src\windows\wifi_set\wifi_set.c" />
+    <ClCompile Include="..\..\..\src\windows\wifi_set\wifi_set_view_model.c" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\..\..\src\custom_widgets\float_label\float_label.h" />
+    <ClInclude Include="..\..\..\src\custom_widgets\time_label\time_label.h" />
+    <ClInclude Include="..\..\..\src\function_model\cJSON\cJSON.h" />
+    <ClInclude Include="..\..\..\src\function_model\command_args\command_args.h" />
+    <ClInclude Include="..\..\..\src\function_model\modbus_data\modbus_data.h" />
+    <ClInclude Include="..\..\..\src\function_model\modbus_data\modbus_data_view_model.h" />
+    <ClInclude Include="..\..\..\src\function_model\mqtt_app_protocol\mqtt_app_protocol.h" />
+    <ClInclude Include="..\..\..\src\function_model\mqtt_app_protocol\mqtt_app_protocol_view_model.h" />
+    <ClInclude Include="..\..\..\src\function_model\usage_info\usage_info.h" />
+    <ClInclude Include="..\..\..\src\function_model\usage_info\usage_info_view_model.h" />
+    <ClInclude Include="..\..\..\src\function_model\view_model_manage\view_model_manage.h" />
+    <ClInclude Include="..\..\..\src\hardware\modbus_serial_port\modbus_serial_port.h" />
+    <ClInclude Include="..\..\..\src\plugins\libmodbus\config.h" />
+    <ClInclude Include="..\..\..\src\plugins\libmodbus\modbus-private.h" />
+    <ClInclude Include="..\..\..\src\plugins\libmodbus\modbus-rtu-private.h" />
+    <ClInclude Include="..\..\..\src\plugins\libmodbus\modbus-rtu.h" />
+    <ClInclude Include="..\..\..\src\plugins\libmodbus\modbus-version.h" />
+    <ClInclude Include="..\..\..\src\plugins\libmodbus\modbus.h" />
+    <ClInclude Include="..\..\..\src\user\app_main.h" />
+    <ClInclude Include="..\..\..\src\windows\alarm_manage\alarm_manage.h" />
+    <ClInclude Include="..\..\..\src\windows\alarm_manage\alarm_manage_view_model.h" />
+    <ClInclude Include="..\..\..\src\windows\custom_kb_num\custom_kb_num.h" />
+    <ClInclude Include="..\..\..\src\windows\custom_kb_num\custom_kb_num_view_model.h" />
+    <ClInclude Include="..\..\..\src\windows\home_page\home_page.h" />
+    <ClInclude Include="..\..\..\src\windows\home_page\home_page_view_model.h" />
+    <ClInclude Include="..\..\..\src\windows\maintenance_win\maintenance_win.h" />
+    <ClInclude Include="..\..\..\src\windows\maintenance_win\maintenance_win_view_model.h" />
+    <ClInclude Include="..\..\..\src\windows\password_win\password_win.h" />
+    <ClInclude Include="..\..\..\src\windows\password_win\password_win_view_model.h" />
+    <ClInclude Include="..\..\..\src\windows\power_down\power_down.h" />
+    <ClInclude Include="..\..\..\src\windows\power_down\power_down_view_model.h" />
+    <ClInclude Include="..\..\..\src\windows\wifi_set\wifi_item.h" />
+    <ClInclude Include="..\..\..\src\windows\wifi_set\wifi_item_view_model.h" />
+    <ClInclude Include="..\..\..\src\windows\wifi_set\wifi_set.h" />
+    <ClInclude Include="..\..\..\src\windows\wifi_set\wifi_set_view_model.h" />
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>
